@@ -409,7 +409,7 @@ Private Sub GenerateReport()
     Dim wdApp As New Word.Application
     Dim file As String
     file = ThisWorkbook.Path & "\" & _
-    "vuon8730_Doc_Output_Generated" & ".docx"
+    "Report" & ".docx"
     'checking if there is already a report and then deleting if there is, file needs to be close though
     With New FileSystemObject
         If .FileExists(file) Then
